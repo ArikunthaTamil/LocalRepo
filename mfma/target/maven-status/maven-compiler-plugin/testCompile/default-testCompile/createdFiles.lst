@@ -1,0 +1,5 @@
+mfma\stepdefinitions\Hooks.class
+mfma\screens\Login.class
+mfma\stepdefinitions\LoginSteps.class
+mfma\screens\VaultSelection.class
+mfma\screens\AddServer.class
