@@ -7,11 +7,10 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		monochrome = true,
 		features = {"mfma.features"},glue={"mfma.stepdefinitions"},plugin = {"pretty", "html:target/cucumber-html-report"},
 		tags = {"@testfeature,@testfeature1"})
 
-public class TestApp extends AbstractTestNGCucumberTests
+public class TestRunner extends AbstractTestNGCucumberTests
 {	
 	
 }
